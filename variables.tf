@@ -4,6 +4,7 @@ variable "ec2_server_count" {
   description = "Number of Servers to be created"
 }
 
+
 variable "ami" {
   type = string
   description = "AMI for EC2 server"
